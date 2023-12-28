@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container1 {
+  width: calc(100% - 120);
+  margin: auto;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  font-weight: 800;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 2524px;
+  background-color: azure;
+}
+
+header {
+  background-color: rgb(231, 218, 201);
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  padding: 10px 0px;
+  box-shadow: 0px 0.744px 12.2372px 15px rgba(24, 23, 23, 0.1);
+}
+
+header .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+header .logo img {
+  width: 35px;
+}
+
+header .logo a {
+  color: #545be8;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+header nav ul li a {
+  color: #101928;
+}
+
+header .auth {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+header .auth a {
+  padding: 5.354px 30.181px;
+  font-family: "Inter", sans-serif;
+}
+
+header .auth .login {
+  box-shadow: inset 0px 0px 1px 0.5px rgb(97, 120, 153);
+  color: #545be8ff;
+  border-radius: 10px;
+  border: 2px solid #545be8ff;
+  background-color: aliceblue;
+}
+
+header .auth .register {
+  color: #fff;
+  border: 1px solid #545be8;
+  border-radius: 10px;
+  background-color: #545be8;
+}
+
+.right-course .container {
+  padding: 20px;
+  background-color: aquamarine;
+  margin: auto;
+  width: 80%;
+}
+
+.container .row .text-item h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.container .row {
+  background-color: #393e46;
+  display: flex;
+}
+
+.right-course .container .row .text-item {
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+}
+
+.text-item span {
+  text-transform: capitalize;
+  color: #545BE8;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.text-item span span {
+  font-weight: bolder;
+  font-family: Inter;
+}
+
+.text-item h2 span {
+  color: #545BE8;
+  font-size: 40px;
+}
+
+
+
+button {
+  display: flex;
+  gap: 80px;
+}
+
+.container .register {
+  gap: 20px;
+  border: #545be8 1px solid;
+  color: #fff;
+  background-color: #545be8;
+  border-radius: 10%;
+  font-size: 10px;
+  padding: 5px 15px;
+}
+
+.container .play-video {
+  padding: 5px 15px;
+  color: #101928;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.courses {
+  padding: 40px 0px;
+  background-color: #fff;
+}
+
+.courses .row {
+  gap: 30px;
+
+}
+
+.courses .course-items {
+  width: calc((100% - 30px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course {
+  position: relative;
+
+}
+
+.course-info {
+  top: 0;
+  display: flex;
+  color: #fff;
+  position: absolute;
+  justify-content: space-between;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+}
+
+
+
+.courses .container {
+  width: calc((100% - 20px)/2);
+}
+
+.course-info span:last-of-type {
+  background-color: #545be8;
+  padding: 5px;
+  align-self: flex-end;
+}
+
+.course-info span:first-of-type {
+  background-color: #545be8;
+  align-self: flex-start;
+  padding: 5px;
+}
+
+.course-card {
+  position: relative;
+}
+
+.testimonials span {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials {padding: 40px 0;
+  display: flex;}
+
+
+  
+
+
+
+
+.footer .container .row {
+  gap: 40px;
+  width: calc((100% - 20px)/2) display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 72px;
+}
+
+.footer {
+  background-color: #393e46;
+  padding: 10px 0px;
+  color: #fff;
+  top: 50px;
+}
+
+.footer .container {
+  padding: 30px 0px;
+}
+
+.footer-left-side {
+  width: calc((100% - 40px) / 2);
+  margin-inline-start: 34px;
+  flex-wrap: wrap;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer .logo {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer img {
+  width: 35px;
+  flex-wrap: wrap;
+}
+
+footer .icon {
+  display: flex;
+  gap: 15px;
+}
+
+footer .icon svg {
+  width: 20px;
+  flex-wrap: wrap;
+  height: 20px;
+  border: #fff 1px solid;
+  box-sizing: content-box;
+  padding: 3px;
+}
+
+footer .footer-right-side {
+  flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+  gap: 40px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.footer-item nav {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+
+
+}
+
+.footer-item h2 {
+  font-size: medium;
+}
